@@ -91,6 +91,7 @@ function loop() {
     balls[i].draw();
     balls[i].update();
     // balls[i].collisionDetect();
+    balls[i].collisionDetect();
   }
 
   requestAnimationFrame(loop);//hàm này sẽ tự gọi nó mỗi khi nó chạy, nên nó sẽ chạy lặp đi lặp lại
